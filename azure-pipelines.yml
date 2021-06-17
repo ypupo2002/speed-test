@@ -29,7 +29,7 @@ steps:
 - task: PublishBuildArtifacts@1    
 - task: GitHubRelease@0
   inputs:
-    gitHubConnection: 'speed-test'
+    gitHubConnection: 'github.com_ypupo2002'
     repositoryName: '$(Build.Repository.Name)'
     action: 'create'
     target: '$(Build.SourceVersion)'
